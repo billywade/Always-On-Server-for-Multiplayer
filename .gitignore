@@ -328,3 +328,7 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+# bin and obj rebuild themselves, and keeping them causes build issues
+bin/
+obj/
